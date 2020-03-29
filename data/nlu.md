@@ -1,0 +1,75 @@
+## intent:greet
+- hey
+- hello
+- hi
+- heya
+- good morning
+- g'day
+- gday
+- good day
+- good afternoon
+- morning
+- good evening
+
+## intent:bye
+- bye
+- good bye
+- good by
+- ok good bye
+- see ya
+- c u
+- cu
+- see you later
+- laters
+- laters baby
+- good night
+- okay thanks
+- thank you
+- thanks
+- cee you later
+- goodbye
+- have a nice day
+- see you around
+- bye bye
+
+## intent:get_weather
+- [Delhi](STATE)
+- [Kashmir](STATE)
+- [Ladakh](STATE)
+- [Roorkee](STATE)
+- [Jaipur](STATE)
+- [Punjab](STATE)
+- [Kolkata](STATE)
+- [Shimla](STATE)
+- [Assam](STATE)
+- [Srinagar](STATE)
+- [New York](STATE)
+- [California](STATE)
+- [Ontario](STATE)
+- [Uttar Pradesh](STATE)
+- [Ladakh](STATE)
+- [current](current)
+- [others](others)
+
+## intent:my_name_is
+- I am [Martin](PERSON)
+- I am [Jack](PERSON)
+- I'm [Steven](PERSON)
+- im [Jack](PERSON)
+- I am [Pierce Brosnan](PERSON)
+- My name is [Martin Novak](PERSON)
+- My name is [Shinoy](PERSON)
+- Myself [shinoy](PERSON:Shinoy)
+- [Rohit](PERSON) this side
+- my name is [Shinoy](PERSON)
+- my name is [shinoy](PERSON:Shinoy)
+- Myself [Shinoy](PERSON)
+- [shinoy](PERSON:Shinoy)
+- it's [shinoy](PERSON:Shinoy)
+- [Shinoy](PERSON) this side
+- [shinoy](PERSON:Shinoy) this side
+- Myself [Rahul](PERSON)
+- [rahul](PERSON) here
+- [daksh](PERSON:)
+- [baba](PERSON)
+- i'm [Anish](PERSON)

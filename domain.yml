@@ -1,0 +1,38 @@
+intents:
+- greet
+- bye
+- get_weather
+- my_name_is
+
+slots:
+  PERSON:
+    type: text
+  STATE:
+    type: text
+
+entities:
+- PERSON
+- STATE
+- current
+- others
+
+actions:
+- action_other_location
+- action_current_location
+
+responses:
+  utter_greet:
+  - text: "Hey! Weather Bot here. What is ur name?"
+  utter_answer:
+  - text: "{PERSON} which city weather you want to know?"
+    buttons:
+      - title: "current"
+        payload: '/get_weather{"current":"current"}'
+      - title: "other"
+        payload: '/get_weather{"others":"other"}'
+  utter_location:
+  - text: "Select state"
+  utter_bye:
+  - text: "Have a nice day"
+  utter_unclear:
+  - text: "Unable to understand"
