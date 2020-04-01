@@ -48,6 +48,7 @@
 - [Ontario](STATE)
 - [Uttar Pradesh](STATE)
 - [Ladakh](STATE)
+- [Delhi](STATE)
 - [current](current)
 - [others](others)
 
