@@ -27,7 +27,6 @@ class ActionHelloWorld(Action):
         return "action_current_location"
 
     def run(self, dispatcher, tracker, domain) :
-        API = "0f761a30-fe14-11e9-b59f-e53803842572"
         r = requests.get("https://geolocation-db.com/json/0f761a30-fe14-11e9-b59f-e53803842572")
         t = r.json()
         city = t["city"]
@@ -42,7 +41,6 @@ class ActionHelloUniverse(Action):
     def run(self, dispatcher, tracker, domain):
         location = tracker.get_slot("STATE")
         API1 = "73287e02418bc7e33a3bfa4650cf8022"
-        # a = requests.get("https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=73287e02418bc7e33a3bfa4650cf8022".format(city))
         a = requests.get("https://api.openweathermap.org/data/2.5/weather?q={}&appid={}&units=metric".format(location, API1))
         print(a)
         print(a.text)
