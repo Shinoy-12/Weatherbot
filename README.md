@@ -31,21 +31,21 @@ refer - https://medium.com/@tatiana.parshina/connecting-rasa-ai-chatbot-to-faceb
 # Tracker
 refer - https://rasa.com/docs/rasa/api/tracker-stores/
 
-hi
-Hey! Weather Bot here. What is ur name?
-my name is shinoy
-Shinoy which city weather you want to know?
-/get_weather{"current":"current"}
-Temp in your city is 18.06
-thank you
-Have a nice day
-/restart
-hy
-hello
-Hey! Weather Bot here. What is ur name?
-my name is shinoy
-Shinoy which city weather you want to know?
-/get_weather{"others":"other"}
-Select state
-jaipur
-Temp in your city is 25
+1. hi
+2. Hey! Weather Bot here. What is ur name?
+3. my name is shinoy
+4. Shinoy which city weather you want to know?
+5. /get_weather{"current":"current"}
+6. Temp in your city is 18.06
+7. thank you
+8. Have a nice day
+9. /restart
+10. hy
+11. hello
+12. Hey! Weather Bot here. What is ur name?
+13. my name is shinoy
+14. Shinoy which city weather you want to know?
+15. /get_weather{"others":"other"}
+16. Select state
+17. jaipur
+18.Temp in your city is 25
