@@ -17,9 +17,9 @@ action_endpoint:
 # By default the conversations are stored in memory.
 # https://rasa.com/docs/rasa/api/tracker-stores/
 
-#tracker_store:
-#    type: mongod
-#    url: mongodb://localhost:27017
-#    db: rasa
-#    username: shinoy
-#    password: shinoy123
+tracker_store:
+    type: mongod
+    url: mongodb://localhost:27017
+    db: rasa
+    username: shinoy
+    password: shinoy123
