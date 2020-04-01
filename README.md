@@ -2,9 +2,8 @@
 Refer my Chatbot-song-link repo for the installation process and about the basics of RASA components.
 
 # Weatherbot
--- ML based conversational chatbot which tells you about the city temperature. This bot will ask you about the city if your want to know about the temperature of your city it will 
-automatically replies you with your city temp. using your computers IP Address.
--- Integration your Project with Messanger
+-- ML based conversational chatbot which tells you about the city's temperature. This bot uses the IP address of your laptop and tells you about the temp. of your city. It also tells us the temperature of some user selected city.
+-- Integrating your Project with Messanger
 -- Saving your Conversations in MongoDb and extracting it. 
 
 
